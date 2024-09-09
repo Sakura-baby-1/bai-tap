@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "NAT_2124802010347",
+    "slug": "NAT_2124802010347",
+    "version": "1.0.0",
+    "orientation": "default",  // Cho phép cả chế độ ngang và dọc
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",  // Thiết lập giao diện sáng
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",  // Ảnh splash sẽ chứa trong màn hình
+      "backgroundColor": "#ffffff"  // Màu nền trắng cho màn hình splash
+    },
+    "ios": {
+      "supportsTablet": true  // Hỗ trợ trên iPad và các thiết bị khác của Apple
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",  // Ảnh biểu tượng cho Android
+        "backgroundColor": "#ffffff"  // Màu nền của biểu tượng trên Android
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"  // Favicon cho ứng dụng web
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
+  }
+}
